@@ -1,0 +1,73 @@
+.ProfileContainer {
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-bottom: 160px;
+  border-top: 1px solid rgb(219, 219, 219);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.ProfileAccountWrapper {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: left;
+}
+
+.ProfileLogout {
+  color: #6a6a6a;
+  cursor: pointer;
+}
+
+.ProfileLogout {
+  color: #9c9c9c;
+}
+
+.ProfileAccountHeading {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 33px;
+}
+
+.ProfileProductWrapper {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  text-align: left;
+  color: #6a6a6a;
+  width: 100%;
+  border-bottom: 1px solid rgb(219, 219, 219);
+}
+
+.ProfileProductName {
+  width: auto;
+}
+
+.ProfileRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: 1px solid rgb(235, 234, 234);
+}
+
+@media (max-width: 1050px) {
+  .ProfileContentWrapper {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+}
+
+@media (max-width: 820px) {
+  .ProfileContainer {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .ProfileContentWrapper {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}

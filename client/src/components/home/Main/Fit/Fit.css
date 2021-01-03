@@ -1,0 +1,112 @@
+.Fit-Wrapper {
+  justify-self: center;
+  border-bottom: 1px solid rgb(219, 219, 219);
+  padding-bottom: 80px;
+}
+
+.Fit-Image {
+  overflow: hidden;
+  max-height: 800px;
+  height: 100%;
+}
+
+.Fit-Image img {
+  max-width: 80%;
+  height: auto;
+  width: auto\9;
+}
+
+.Mens-Title {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 33px;
+  margin: 80px;
+}
+
+.Fit-Items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Full-Fit-Image {
+  grid-column: 1;
+  overflow: hidden;
+  max-width: 340px;
+}
+
+.Full-Fit-Image img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+}
+
+.Fit-Item-Wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Fit-Item-Wrapper img {
+  max-width: 60%;
+  height: auto;
+  width: auto\9;
+}
+.Fit-Item-Wrapper-Price {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.fit-image-hover-container {
+  position: relative;
+  display: flex;
+  min-width: 340px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fit-image-hover-image {
+  width: 100%;
+  height: auto;
+  max-width: 340px;
+  max-height: 340px;
+}
+
+.fit-image-hover-image img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+}
+
+.fit-image-hover-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: white;
+}
+
+.fit-image-hover-container:hover .fit-image-hover-overlay {
+  opacity: 1;
+}
+
+@media (max-width: 1050px) {
+  .Fit-Items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Fit-Items p {
+    display: none;
+  }
+  .fit-image-hover-container {
+    display: none;
+  }
+}

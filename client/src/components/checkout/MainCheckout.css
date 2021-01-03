@@ -1,0 +1,69 @@
+.CheckoutContainer {
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  display: flex;
+  justify-content: center;
+}
+
+.CheckoutFormWrapper {
+  min-width: 400px;
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+}
+
+.CheckoutForm {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.CheckoutForm form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.CheckoutForm input {
+  padding: 15px 30px;
+  margin-top: 5px;
+
+  border-radius: none;
+  border: solid 1px rgb(195, 195, 195);
+  box-shadow: none;
+}
+
+.CheckoutForm input:focus {
+  border-radius: none;
+  outline: none;
+  border: solid 1px #1c1b1b;
+}
+
+.CheckoutHeading {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #1c1b1b;
+  line-height: 33px;
+}
+
+.CheckoutText {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #6a6a6a;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 820px) {
+  .CheckoutContainer {
+    margin: 10px;
+  }
+  .CheckoutFormWrapper {
+    min-width: 0;
+  }
+}
